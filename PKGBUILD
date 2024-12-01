@@ -65,3 +65,4 @@ build() {
 package() {
   cd "${pkgname%-git}"
   just rootdir="$pkgdir" install
+  }
